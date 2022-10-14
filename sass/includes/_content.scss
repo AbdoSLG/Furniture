@@ -1,0 +1,107 @@
+@use "../includes/vars/vars" as *;
+// start shop now
+.boxs{
+    .box{
+        width: 287px;
+        img{
+            width: 287px;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 30px 0 0 0 ;
+        }
+        .d-flex{
+            p{
+                margin: 0;
+            }
+            p+svg{
+                background-color: $main-color;
+                color: white;
+                padding: 7px;
+            }
+        }
+    }
+}
+// end shop now
+
+
+.shop,.best,.about,.brands{
+    background-color: white !important;
+}
+
+// start best selling 
+.best{
+    .box{
+        img{
+            border-radius: 0;
+        }
+    }
+}
+
+// end best selling 
+
+.about{
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+    .btn{
+        background-color: $main-color;
+        color: white;
+    }
+}
+
+
+// start about 
+.about{
+    background-color: white;
+
+}
+// end about
+
+// start brands
+.brands{
+    img{
+        cursor: pointer;
+        transition: .3s;
+        filter: grayscale(1);
+        width: 138px;
+        object-fit: contain;
+        &:hover{
+            filter: grayscale(0);
+            
+        }
+    }
+}
+// end brands 
+// strat contact
+
+.contact{
+    color: white;
+    background-color: rgb(20, 45, 98);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .input{
+        width: 330px;
+        input{
+            width: 80%;
+            height: 40px;
+            border: none;
+            padding: 0 0 0 22px;
+            &:focus{
+                outline: none;
+            }
+        }
+        .btn{
+            height: 40px;
+            color: white !important;
+            border: none !important;
+            background-color: $main-color;
+            border-radius: 0;
+            padding: 0;
+            margin: 0;
+            padding: 8px 10px;
+        }
+    }
+}
+
+// end contact

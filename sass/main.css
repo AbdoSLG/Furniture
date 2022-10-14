@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navbar .container ul li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-color {
+  color: #50da47;
+}
+
+.navbar {
+  top: 0;
+  left: 0;
+  background-color: white !important;
+  z-index: 500;
+  position: fixed;
+  width: 100%;
+}
+.navbar .container .logo {
+  cursor: pointer;
+}
+.navbar .container .logo span {
+  color: #0aa900 !important;
+}
+.navbar .container ul {
+  margin: 0%;
+}
+.navbar .container ul li {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.navbar .container ul li:hover a {
+  color: #0aa900;
+}
+.navbar .container ul li a {
+  font-size: 18px;
+  transition: 0.3s;
+  color: black;
+}
+
+.bg {
+  background-image: url(../images/bg.jpg);
+  width: 100%;
+  height: 99vh;
+  position: fixed;
+  top: 0%;
+  background-size: cover;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.bg-content {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  display: flex;
+  align-items: center;
+}
+.bg-content h2 {
+  width: 319px;
+}
+.bg-content p {
+  width: 319px;
+}
+.bg-content .btn {
+  background-color: #0aa900;
+  color: white;
+}
+
+.boxs .box {
+  width: 287px;
+}
+.boxs .box img {
+  width: 287px;
+  height: 320px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 30px 0 0 0;
+}
+.boxs .box .d-flex p {
+  margin: 0;
+}
+.boxs .box .d-flex p + svg {
+  background-color: #0aa900;
+  color: white;
+  padding: 7px;
+}
+
+.shop, .best, .about, .brands {
+  background-color: white !important;
+}
+
+.best .box img {
+  border-radius: 0;
+}
+
+.about img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.about .btn {
+  background-color: #0aa900;
+  color: white;
+}
+
+.about {
+  background-color: white;
+}
+
+.brands img {
+  cursor: pointer;
+  transition: 0.3s;
+  filter: grayscale(1);
+  width: 138px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.brands img:hover {
+  filter: grayscale(0);
+}
+
+.contact {
+  color: white;
+  background-color: rgb(20, 45, 98);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact .input {
+  width: 330px;
+}
+.contact .input input {
+  width: 80%;
+  height: 40px;
+  border: none;
+  padding: 0 0 0 22px;
+}
+.contact .input input:focus {
+  outline: none;
+}
+.contact .input .btn {
+  height: 40px;
+  color: white !important;
+  border: none !important;
+  background-color: #0aa900;
+  border-radius: 0;
+  padding: 0;
+  margin: 0;
+  padding: 8px 10px;
+}
+
+.c {
+  color: #0288d1 !important;
+  cursor: pointer;
+}/*# sourceMappingURL=main.css.map */
